@@ -9,7 +9,7 @@ package factorymethod;
  *
  * @author Allan
  */
-class FactoryVeiculo {
+class FactoryVeiculo implements InterfaceVeiculo{
 
     public Veiculo getVeiculo(int qtde, String cm) {
 
